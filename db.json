@@ -1,25 +1,20 @@
 {
-  "booksdb": [
-    {
-      "table": "books",
-      "rows": [
-        {
-          "id": "d15b1a3e-f45b-11ec-b939-0242ac120002",
-          "title": "Harry Potter and the Philosopher's Stone",
-          "description": "Harry Potter lives with his abusive aunt and uncle, Vernon and Petunia Dursley and their bullying son, Dudley. On Harry's eleventh birthday, a half-giant named Rubeus Hagrid personally delivers an acceptance letter to Hogwarts School of Witchcraft and Wizardry, revealing that Harry's parents, James and Lily Potter, were wizards. When Harry was one year old, an evil and powerful dark wizard, Lord Voldemort, murdered his parents. Harry survived Voldemort's killing curse that rebounded off his forehead and seemingly destroyed the Dark Lord, leaving a lightning bolt-shaped scar on his forehead. Unknown to Harry, he is famous in the wizarding world.",
-          "published": "1997-06-25T21:00:00.000Z",
-          "pages": 223,
-          "genre": 1
-        }
-      ]
-    }, {
-      "table": "genres",
-      "rows": [
-        {
-          "id": 1,
-          "type": "Fantasy"
-        }
-      ]
-    }
-  ]
+  "librarydb": {
+    "books": [
+      {
+        "id": "d15b1a3e-f45b-11ec-b939-0242ac120002",
+        "title": "Harry Potter and the Philosopher's Stone",
+        "description": "Harry Potter lives with his abusive aunt and uncle, Vernon and Petunia Dursley and their bullying son, Dudley. On Harry's eleventh birthday, a half-giant named Rubeus Hagrid personally delivers an acceptance letter to Hogwarts School of Witchcraft and Wizardry, revealing that Harry's parents, James and Lily Potter, were wizards. When Harry was one year old, an evil and powerful dark wizard, Lord Voldemort, murdered his parents. Harry survived Voldemort's killing curse that rebounded off his forehead and seemingly destroyed the Dark Lord, leaving a lightning bolt-shaped scar on his forehead. Unknown to Harry, he is famous in the wizarding world.",
+        "published": "1997-06-25T21:00:00.000Z",
+        "pages": 223,
+        "genre": 1
+      }
+    ],
+    "genres": [
+      {
+        "id": 1,
+        "type": "Fantasy"
+      }
+    ]
+  }
 }
